@@ -8,5 +8,5 @@ declare -a browsers=( "browserstack:Chrome@84.0:Windows 10" "browserstack:firefo
 
 for i in "${browsers[@]}"
 do
-	./node_modules/.bin/testcafe "${i}" ./tests/
+	./node_modules/.bin/testcafe "${i}" ./tests/sample.test.js
 done
