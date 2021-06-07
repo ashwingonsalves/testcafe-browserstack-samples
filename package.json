@@ -12,7 +12,7 @@
   "author": "Ashwin G",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.9.0",
-    "testcafe-browser-provider-browserstack": "^1.13.0"
+    "testcafe": "^1.14.2",
+    "testcafe-browser-provider-browserstack": "^1.13.1"
   }
 }
