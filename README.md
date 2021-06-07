@@ -11,23 +11,12 @@
 export BROWSERSTACK_USERNAME="<username>"
 export BROWSERSTACK_ACCESS_KEY="<access key>"
 ```
+Ensure that the Percy token is added to testcafe-browserstack-samples/config/single-run.sh
 
 ## Running the test
-* Run the sample test locally on your machine:
-```bash
-npm run test
-```
-* Run the test on BrowserStack
+* Run the test on BrowserStack and Percy
 
-Single
 ```bash
 npm run browserstack:single
 ```
-Parallel
-```bash
-npm run browserstack:parallel
-```
-Sequential
-```bash
-npm run browserstack:sequential
-```
+
