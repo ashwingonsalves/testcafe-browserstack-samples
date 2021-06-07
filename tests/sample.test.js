@@ -1,4 +1,5 @@
 import { Selector } from 'testcafe'
+import percySnapshot from '@percy/testcafe';
 
 fixture `Sample test in TestCafe`
     .page `https://www.google.com`
@@ -9,4 +10,5 @@ test('Google Search Test', async t => {
     const pageTitle = Selector('title').innerText
     await t.expect(pageTitle).contains('BrowserStack - Google Search')
     await t.takeScreenshot({ fullPage: true })
+    await percySnapshot(t, 'Google-Search');
 })
