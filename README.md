@@ -12,7 +12,7 @@ export BROWSERSTACK_USERNAME="<username>"
 export BROWSERSTACK_ACCESS_KEY="<access key>"
 ```
 Ensure that the Percy token is added to:
-## testcafe-browserstack-samples/config/single-run.sh
+# testcafe-browserstack-samples/config/single-run.sh
 
 ## Running the test
 * Run the test on BrowserStack and Percy
