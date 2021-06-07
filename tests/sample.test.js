@@ -8,4 +8,5 @@ test('Google Search Test', async t => {
     await t.pressKey('enter')
     const pageTitle = Selector('title').innerText
     await t.expect(pageTitle).contains('BrowserStack - Google Search')
+    await t.takeScreenshot({ fullPage: true })
 })
